@@ -64,14 +64,14 @@ body {
 }
 
 /*  CONTENT SECTION */
-.content {
+main {
     padding: 2em;
     background-color: var(--desaturated-blue);
     text-align: center;
     border-radius: 0 0 10px 10px;
 }   
 
-.content h1 {
+main h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.7rem;
@@ -150,7 +150,7 @@ DESKTOP LAYOUT
         border-radius: 0 10px 10px 0;
     }
 
-    .content {
+    main {
         grid-column: 1/2;
         grid-row: 1/2;
         padding: 3em 7em 3em 3em;
@@ -158,7 +158,7 @@ DESKTOP LAYOUT
         border-radius: 10px 0 0 10px;
     }
 
-    .content h1 {
+    main h1 {
         font-size: 2.3em;
         line-height: 40px;
     }
